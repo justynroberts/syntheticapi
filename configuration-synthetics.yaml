@@ -1,0 +1,5 @@
+com.instana.plugin.ping:
+  endpoints:
+    sample:
+      target: http://172.16.0.42:80/health
+      type: http
